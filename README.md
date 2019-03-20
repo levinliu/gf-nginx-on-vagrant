@@ -1,5 +1,5 @@
 # gf-nginx-on-vagrant
-For Girl Friend to Study Nginx
+For Girlfriend to Study Nginx
 
 
 # Start the Box
