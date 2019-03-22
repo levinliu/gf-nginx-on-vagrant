@@ -1,3 +1,5 @@
+cd / && python -m SimpleHTTPServer 9127 &
+
 yum -y install gcc automake autoconf libtool make
 yum -y install gcc
 yum -y install gcc-c++
@@ -45,6 +47,8 @@ make install
 
 cd /usr/local/nginx && ls -rtla
 
-netstat -ano|grep 80
+#netstat -ano|grep 80
 
-/usr/local/nginx/nginx
+/usr/local/nginx/nginx &
+echo "nginx is started"
+
