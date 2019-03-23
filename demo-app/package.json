@@ -1,0 +1,17 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export APP_PORT=8083 && node app.js"
+  },
+  "author": "levinliu",
+  "license": "ISC",
+  "dependencies": {
+    "env-var": "3.5.0",
+    "restify": "8.2.0",
+    "silly-datetime": "0.1.2"
+  }
+}
