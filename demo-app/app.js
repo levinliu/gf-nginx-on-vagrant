@@ -19,7 +19,7 @@ function now() {
 server.get('/',function(req, res, next){
   console.log('visitor info ' + req);
   var result = now() + ', your are visiting service on port(' + PORT + ') pid(' + PID + ')';
-  result += '-------- you info here --------' + req;
+  result += '>======== you info here =======>' + req;
   res.send(result);
   return next();
 }); 

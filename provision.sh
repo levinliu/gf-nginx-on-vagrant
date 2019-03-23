@@ -100,6 +100,7 @@ export APP_PORT=8085 && node /tmp/app/app.js &
 export APP_PORT=8082 && node /tmp/app/app.js &
 export APP_PORT=8083 && node /tmp/app/app.js &
 export APP_PORT=8084 && node /tmp/app/app.js & 
+export APP_PORT=8081 && node /tmp/app/app.js &
 
 cd /tmp
 mv /usr/local/nginx/nginx.conf /usr/local/nginx/nginx.conf.bk`date '+%Y%m%d_%H%M%S'`
